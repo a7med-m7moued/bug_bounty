@@ -111,4 +111,11 @@ wget https://github.com/ffuf/ffuf/releases/download/v2.0.0/ffuf_2.0.0_linux_amd6
 tar zxf ffuf_2.0.0_linux_amd64.tar.gz
 cp ffuf /usr/bin/
 
+wget https://github.com/tomnomnom/anew/releases/download/v0.1.1/anew-linux-amd64-0.1.1.tgz
+
+tar zxf anew-linux-amd64-0.1.1.tgz
+cp anew /usr/bin/
+wget https://github.com/projectdiscovery/dnsx/releases/download/v1.1.4/dnsx_1.1.4_linux_amd64.zip
+unzip dnsx_1.1.4_linux_amd64.zip 
+cp dnsx /usr/bin/
 
