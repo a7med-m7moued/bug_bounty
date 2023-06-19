@@ -12,3 +12,5 @@ mapcidr -cidr  cdir  -silent  -o cdir_ips |
 dirsearch -l cdir_ips -t 50 --deep-recursive    -R 2 --deep-recursive=200,403 -i 200 --random-agent -f --crawl -o dir_ips --format=json &
 
 dirsearch -l cdir_ips -t 50 --deep-recursive    -R 2 --deep-recursive=200,403 -i 200 --random-agent -f --crawl -o dir_ips_Post --format=json -m POST
+
+wait
