@@ -44,9 +44,8 @@ cp puredns /usr/bin/
 git clone https://github.com/guelfoweb/knock.git
 cd knock
 pip3 install -r requirements.txt
-chmod +x knockpy.py
-cp knockpy.py /usr/bin/knock
 
+cd ..
 git clone https://github.com/blechschmidt/massdns.git
 
 pip3 install py-altdns==1.0.2
