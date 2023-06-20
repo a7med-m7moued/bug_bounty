@@ -48,6 +48,13 @@ pip3 install -r requirements.txt
 cd ..
 git clone https://github.com/blechschmidt/massdns.git
 
+cd massdns
+apt install make
+make 
+cd bin
+cp massdns /usr/bin/
+cd ../../
+cd ..
 pip3 install py-altdns==1.0.2
 wget https://github.com/projectdiscovery/naabu/releases/download/v2.1.6/naabu_2.1.6_linux_amd64.zip
 
@@ -120,3 +127,6 @@ wget https://github.com/projectdiscovery/dnsx/releases/download/v1.1.4/dnsx_1.1.
 unzip dnsx_1.1.4_linux_amd64.zip 
 
 cp dnsx /usr/bin/
+wget https://github.com/projectdiscovery/alterx/releases/download/v0.0.2/alterx_0.0.2_linux_amd64.zip
+unzip alterx_0.0.2_linux_amd64.zip
+cp alterx /usr/bin/

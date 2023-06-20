@@ -1,6 +1,6 @@
-cat data_output | httpx >>live_domains
+cat all_Subs | httpx >>live_domains
 
-subzy run --targets   live_domains     --vuln --output subtakeover 
+subzy run --targets   all_Subs     --vuln --output subtakeover 
 
 while read line ;do arjun -u $line -oj arjun ; done < live_domains 
 
